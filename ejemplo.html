@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+
+
+<body>
+
+    <header></header>
+    <main>
+
+        <form action="archivo" method="post">
+
+            <!--Datos Personales-->
+            <div>
+                <fieldset>
+                    <legend>Datos Personales</legend>
+                    <div>
+                        <label for="nombre">Nombre</label>
+                        <input type="text" name="nombre" id="nombre" required>
+
+                        <label for="apellido">Apellido</label>
+                        <input type="text" name="apellido" id="apellido" required>
+                    </div>
+                    <div>
+                        <label for="dni">DNI</label>
+                        <input type="number" name="dni" id="dni">
+                    </div>
+                </fieldset>
+            </div>
+            <!--Preferencias Personales-->
+            <fieldset>
+                <legend>Intereses Personales</legend>
+                <div>
+                    <label for="deporte">Natacion</label>
+                    <input type="radio" name="deporte" id="natacion">
+                    <label for="deporte">Futbol</label>
+                    <input type="radio" name="deporte" id="Futbol">
+                    <label for="deporte">Voley</label>
+                    <input type="radio" name="deporte" id="Voley">
+                </div>
+                <div>
+                    <label for="equipos">Equipos</label>
+                    <select name="equipos" id="equipos">
+                    <option value="0">Seleccionar Equipo</option>
+                    <option value="river-plate">River Plate</option>
+                    <option value="san-lorenzo">San Lorenzo</option>
+                    </select>
+                </div>
+            </fieldset>
+            <!---->
+            <fieldset>
+                <legend>Escribe sobre ti</legend>
+                <label for="texto">Descripcion </label>
+                <textarea name="texto" id="texto" cols="30" rows="10"></textarea>
+            </fieldset>
+            <div>
+                <input type="submit" value="enviar">
+            </div>
+        </form>
+        
+    </main>
+
+</body>
+
+</html>
