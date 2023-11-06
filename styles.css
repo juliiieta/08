@@ -1,0 +1,15 @@
+*{
+    padding: 0%;
+    margin:0%;
+}
+body{
+    background-image: hola;
+}
+header{
+    display: flex;
+}
+.container{
+    display: flex;
+}
+
+
