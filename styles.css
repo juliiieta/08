@@ -3,7 +3,7 @@
     margin:0%;
 }
 body{
-    background-image: hola;
+    background-image: url(Assets/fondobyn.png);
 }
 header{
     display: flex;
