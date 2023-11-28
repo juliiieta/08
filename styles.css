@@ -1,15 +1,90 @@
 *{
     padding: 0%;
     margin:0%;
+    box-sizing: border-box;
 }
 body{
-    background-image: url(Assets/fondobyn.png);
+    background-image: url(Assets/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
 }
 header{
     display: flex;
+    justify-content: space-between;
+    margin-left: 20%;
+    margin-right: 20%;
 }
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover {
+    color: red;
+  }
 .container{
     display: flex;
 }
+strong{
+    color: red;
+}
+h1{
+    font-size: 100px; 
+}
+main{
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    justify-content: space-between;
+}
+form{
+    display: grid;
+    width: 440px;
+    height: 500px;
+    font-size: 15px;
+}
+input{
+    height: 40px;
+}
+select{
+    height: 40px;
+}
+#boton{
+    margin-top: 20px;
+    background-color: red;
+    border: none;
+    color: white;
+}
+legend{
+    padding: 20px;
+}
+footer{
+    background-color: #1f1f1f;
+    margin: 0px;
+    height: 150px;
+}
+.pie{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 20%;
+    margin-left: 20%;
+    padding-top: 20px;
+}
+ul{
+    display: flex;
+}
+ul li{
+    list-style: none;
+    padding: 5px;
 
-
+}
+.boton-ingresar{
+    width: 250px;
+    text-align: center;
+    padding-top: 25px;
+}
+.derechos{
+    color: #898989;
+    margin-left: 20%;
+}

@@ -9,7 +9,7 @@
 </head>
 
 <body>
-    
+
     <header>
 
         <div>
@@ -17,8 +17,8 @@
             <h2>Registrate en River ID</h2>
         </div>
 
-        <div>
-            <p>¿Ya tenés cuenta?</p><a href="#">Ingresá acá</a>
+        <div class="boton-ingresar">
+            <p>¿Ya tenés cuenta? <a href="#">Ingresá acá</a></p>
         </div>
 
     </header>
@@ -27,22 +27,24 @@
         <div>
             <img src="Assets/340x400.jpg" alt="">
         </div>
+
         <div>
             <form action="archivo" method="post">
 
-                <legend>Datos Obligaroerios</legend>
+                <legend>Para formar parte del Más Grande, necesitamos validar tu identidad. Por favor, completá los siguientes datos:</legend>
+                <br>
                 <label for="nombre">Nombre y Apellido</label>
                 <input type="text" placeholder="Nombre y Apellido" name="nombre" id="nombre" required>
-
+                <br>
                 <label for="dni">DNI</label>
                 <input type="number" placeholder="DNI" name="dni" id="dni" required>
-
+                <br>
                 <label for="email">Correo Electrónico</label>
                 <input type="email" placeholder="Correo Electrónico" name="email" id="email" required>
-
+                <br>
                 <label for="fecha">Fecha de Nacimiento</label>
                 <input type="date" placeholder="Fecha de Nacimiento" name="fecha" id="fecha" required>
-
+                <br>
                 <label for="provincia">Provincia</label>
                 <select name="provincia" id="provincia" required>
                     <option value="1">Buenos Aires</option>
@@ -70,25 +72,31 @@
                     <option value="23">Tierra del Fuego, Antártida e Islas del Atlántico Sur</option>
                     <option value="24">Tucumán</option>
                 </select>
-
+                <br>
                 <label for="ciudad">Ciudad</label>
-                <input type="text" name="ciudad" id="ciudad">
+                <input type="text" placeholder="Ciudad" name="ciudad" id="ciudad">
 
-                <input type="submit" value="enviar">
+                <input type="submit" value="enviar" id="boton">
             </form>
         </div>
+
     </main>
 
     <footer>
-        <div>
+        <div class="pie">
             <div class="container">
-                <img src="Assets/RiverID_Nuevo_Gris.svg" alt="logo" width="50px">
+                <img src="Assets/RiverID_Nuevo_Gris.svg" alt="logo" width="200px">
             </div>
             <div>
-                redes sociales
+                <ul>
+                    <li><a href=""><img src="Assets/instagram.png" alt=""></a></li>
+                    <li><a href=""><img src="Assets/facebook.png" alt=""></a></li>
+                    <li><a href=""><img src="Assets/tik-tok(1).png" alt=""></a></li>
+                    <li><a href=""><img src="Assets/youtube.png" alt=""></a></li>
+                </ul>
             </div>
         </div>
-        <div>
+        <div class="derechos">
             <p>River Plate © 2023 Todos los derechos reservados</p>
         </div>
     </footer>
